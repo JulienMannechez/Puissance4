@@ -11,7 +11,7 @@ Développement d'un Puissance 4 avec une architecture MVC sous l'environnement V
 
 Nous avons donc 3 classes pour notre modèle, vue et controleur, ainsi qu'une dernière pour l'interface graphique.
 
-   **1. Puissance4Controller**
+   ##1. Puissance4Controller
   
 Notre Controleur qui se chargera des _évenèments_ porté sur l'application.
 
@@ -21,7 +21,7 @@ redButtonPressedEvent: | A chaque clique gauche fait sur notre plateau de jeu ce
 mouseMovedEvent: | On suit le curseur de l'utilisateur avec le jeton actuellement en jeu.
   
   
-   **2. Puissance4Model**
+   ##2. Puissance4Model
   
 Méthodes d'instance | Description
 ---|---
@@ -39,7 +39,7 @@ testPieceJaune | un tableau définissant un jeton jaune.
 testPieceRouge | un tableau définissant un jeton rouge.
 
   
-   **3. Puissance4View**
+   ##3. Puissance4View
   
 Affichage de notre interface.
   
@@ -50,7 +50,7 @@ defaultControllerClass | Fait un lien avec notre controleur et la vue.
 displayOn | S'occupe de l'affichage de notre modèle.
 
 
-   **4. UIPuissance4**
+   ##4. UIPuissance4
   
 L'interface de notre application.  
   
